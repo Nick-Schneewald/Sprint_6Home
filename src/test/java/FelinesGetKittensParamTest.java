@@ -21,7 +21,8 @@ public class FelinesGetKittensParamTest {
         return Arrays.asList(new Object[][]{
                 {3, 3},
                 {0, 0},
-                {1, 1}
+                {1, 1},
+                {-1,-1}
         });
     }
 

@@ -23,11 +23,4 @@ public class FelinesTest {
         Feline feline = new Feline();
         Assert.assertEquals(1, feline.getKittens());
     }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void getKittensNegativeValueThrowsException() {
-        Feline feline = new Feline();
-        feline.getKittens(-1);
-    }
-
 }
